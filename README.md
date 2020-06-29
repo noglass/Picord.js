@@ -6,7 +6,7 @@ This bot is ideal for controlling a Raspberry Pi. It should only be in a private
 **There is absolutely no permission checking for commands and direct root shell access is available!**
 
 # Aliases
-Aliases allow you to easily bind commands to simple, single word commands.  
+Aliases allow you to easily bind shell commands to simple, single word commands.  
 `example-aliases.txt` is a basic example of a few aliases I use.  
 If you use `motion`, you can configure it to run shell commands for certain events like detecting motion or saving a picture/video.  
 Using webhooks, you can easily send messages from the shell like so:
