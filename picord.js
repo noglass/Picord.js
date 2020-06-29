@@ -122,7 +122,7 @@ fs.readFile(PICORD_PATH + 'aliases.txt', 'utf8', (err,data) => {
 
 client.on('message', message => {
     console.log('[#' + message.channel.name + '] (' + message.author.username + '): ' + message.content);
-    if (message.author.id !== "726562617321324555")
+    if (message.author.id !== client.user.id)
     {
         var args = message.content.split(' ');
         var cmd = args[0].toLowerCase();
