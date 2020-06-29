@@ -1,0 +1,9 @@
+alias echo echo
+alias up uptime -p
+alias load uptime
+
+#These-are-useful-if-you-use-motion
+alias snap curl -s -o /dev/null http://localhost:8080/0/action/snapshot
+alias motion_on curl -s -o /dev/null http://localhost:8080/0/detection/start
+alias motion_off curl -s -o /dev/null http://localhost:8080/0/detection/pause
+
